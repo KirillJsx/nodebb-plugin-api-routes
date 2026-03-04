@@ -11,7 +11,7 @@ This plugin registers routes under `/api/v3/plugins/api-routes/` that use only a
 
 ## Works with
 
-- [nodebb-plugin-upload-api](https://github.com/KirillJsx/nodebb-plugin-upload-api) — WebP conversion + subfolder organization
+- [nodebb-plugin-upload-plus](https://github.com/mysteren/nodebb-plugin-upload-plus) — WebP conversion + subfolder organization
 
   Both plugins must be active. The `filter:uploadStored` hook from `upload-api` fires automatically inside `uploadsController.uploadPost` regardless of which route called it.
 
