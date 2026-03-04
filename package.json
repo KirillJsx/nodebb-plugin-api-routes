@@ -1,0 +1,21 @@
+{
+  "name": "nodebb-plugin-api-routes",
+  "version": "1.0.0",
+  "description": "NodeBB plugin: Bearer-auth API routes without CSRF (upload, and more)",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "nodebb",
+    "nodebb-plugin",
+    "api",
+    "upload",
+    "bearer"
+  ],
+  "author": "KirillJsx",
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^3.0.0"
+  }
+}
